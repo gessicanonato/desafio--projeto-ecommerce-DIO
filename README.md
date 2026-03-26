@@ -13,25 +13,6 @@ O objetivo é demonstrar domínio em modelagem de dados, normalização, criaç�
 
 ---
 
-## 📌 **Objetivos do Desafio**
-
-Refinar o modelo de e‑commerce apresentado, acrescentando:
-
-### ✔ Cliente PF e PJ  
-- Um cliente pode ser **Pessoa Física (PF)** ou **Pessoa Jurídica (PJ)**  
-- Nunca pode ser os dois ao mesmo tempo  
-- Implementado com tabelas separadas `clientPF` e `clientPJ`
-
-### ✔ Pagamento  
-- Um cliente pode ter **várias formas de pagamento**  
-- Implementado com tabela `payments` (1:N)
-
-### ✔ Entrega  
-- Cada pedido possui **status de entrega** e **código de rastreio**  
-- Implementado com tabela `delivery`
-
----
-
 ## 🧱 **Modelo Lógico (Descrição)**
 
 ### **Entidades principais**
